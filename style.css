@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url(https://cdn.wallpapersafari.com/14/32/B5GZ9x.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+h1{
+    margin: 30px;
+    background-color: rgba(29, 76, 138, 0.989);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    text-align: center;
+    color: rgba(235, 237, 239, 0.925);
+    text-shadow: 200px;
+}
+.clock{
+    display: flex;
+    position: relative;
+}
+.clock div{
+    margin: 5px;
+}
+.clock span{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(17, 6, 59);
+    opacity: .8;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px black;
+}
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rebeccapurple;
+    opacity: 0.8;
+}
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: rgb(233, 32, 143);
+}
